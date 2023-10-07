@@ -12,8 +12,7 @@ You can use the below explanation to add/remove menu routs and their menu items.
 
 Open `next/src/app/router.js` You will find the below example code. In below code we have show how you can add new page route.
 
-{% code-tabs %}
-{% code-tabs-item title="router.js" %}
+{% code title="router.js" %}
 ```javascript
 // import external modules
 import React, { Component, Suspense, lazy } from "react";
@@ -64,8 +63,7 @@ class Router extends Component {
 
 export default Router;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Add menu item
 
@@ -73,8 +71,7 @@ To add menu items you can use `elite-able/src/layout/components/sidebar/sidBarMe
 
 You can use `MenuSingle`for single menu item and `MultiMenu` for multiple menu items. You can also add badge to menu by using `badgeText`option and set badge color by using `badgeColor`Option.
 
-{% code-tabs %}
-{% code-tabs-item title="menus.js" %}
+{% code title="menus.js" %}
 ```javascript
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
@@ -119,6 +116,4 @@ class Menus extends Component {
 
 export default Menus;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
+{% endcode %}

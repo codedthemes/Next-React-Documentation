@@ -4,34 +4,33 @@
 
 **Template config options:**
 
-| Attribute | Type | Options |
-| :--- | :--- | :--- |
-| themeLayoutColor | string | layout-light-dark,layout-dark, layout-light |
-| headerBg | string | light,blue,red,purple,info,dark |
-| settingOptions | boolean | true**/**false |
-| themeLayoutBox | boolean | true**/**false |
-| sidebarCollapsed | boolean | true**/**false |
-| sidebarFixed | boolean | true**/**false |
-| headerFixed | boolean | true**/**false |
-| sidebarBrandColor | string | dark,blue,red,purple,info |
+| Attribute         | Type    | Options                                     |
+| ----------------- | ------- | ------------------------------------------- |
+| themeLayoutColor  | string  | layout-light-dark,layout-dark, layout-light |
+| headerBg          | string  | light,blue,red,purple,info,dark             |
+| settingOptions    | boolean | true**/**false                              |
+| themeLayoutBox    | boolean | true**/**false                              |
+| sidebarCollapsed  | boolean | true**/**false                              |
+| sidebarFixed      | boolean | true**/**false                              |
+| headerFixed       | boolean | true**/**false                              |
+| sidebarBrandColor | string  | dark,blue,red,purple,info                   |
 
-## Sidebar \(Menu\) config options:
+## Sidebar (Menu) config options:
 
-| Attribute | Type | Options |
-| :--- | :--- | :--- |
-| iconColor | boolean | true/false |
-| menuCaption | boolean | true/false |
-| captionColor | string | default,dark,blue,red,purple,info |
-| dropdownIcon | string | arrow\_single , arrow\_double, plus |
-| listIcon | string | curcile, line, check, arrow\_shift, arrow\_double, arrow\_single |
-| activeColor | string | light,dark,blue,red,purple,info |
-| menuBg | string | default,blue,red,purple,info,dark |
-| menuBgGradient | string | default,blue,red,purple,info,dark |
-| menuBgPattern | string | default,1,2,3,4,5,6 |
-| menuBgImage | string | default,1,2,3,4,5 |
+| Attribute      | Type    | Options                                                          |
+| -------------- | ------- | ---------------------------------------------------------------- |
+| iconColor      | boolean | true/false                                                       |
+| menuCaption    | boolean | true/false                                                       |
+| captionColor   | string  | default,dark,blue,red,purple,info                                |
+| dropdownIcon   | string  | arrow\_single , arrow\_double, plus                              |
+| listIcon       | string  | curcile, line, check, arrow\_shift, arrow\_double, arrow\_single |
+| activeColor    | string  | light,dark,blue,red,purple,info                                  |
+| menuBg         | string  | default,blue,red,purple,info,dark                                |
+| menuBgGradient | string  | default,blue,red,purple,info,dark                                |
+| menuBgPattern  | string  | default,1,2,3,4,5,6                                              |
+| menuBgImage    | string  | default,1,2,3,4,5                                                |
 
-{% code-tabs %}
-{% code-tabs-item title="templateConfig.js" %}
+{% code title="templateConfig.js" %}
 ```javascript
 // Elite able React Template Config File
 //------------------------------------
@@ -66,6 +65,4 @@ const templateConfig = {
 
 export default templateConfig;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
+{% endcode %}
